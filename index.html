@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
   <body background="assets/images/zoomzoom.png">
@@ -22,8 +23,10 @@
         <h1 class="text-center my-5 text-white">Star Wars: Good and Evil</h1>
         <div class="row">
             <div class="col-sm-6">
-                <div class="text-white ml-4"><h4>How the Game Works</h4></div>
-                    <ul class="text-white mb-2">
+                <div class="text-white ml-4"><h1 id="rules">Rules of the Game</h1></div>
+                <br>
+                <br>
+                    <ul class="list text-white mb-2">
                         <li>You will be given a random number at the start of the game.</li>
                         <br>
                         <li>There are four characters. By clicking on a character you will add a specific amount of points to your total score.</li>
@@ -56,6 +59,7 @@
             <div class="col-sm-3">
                 <div class="card mx-auto mt-3 w-75 h-100 bg-danger text-white text-center">
                     <div class="card-body"><h4>Random #</h4>
+                        <br>
                         <div id="randomNumber"></div>
                     </div>   
                 </div>
@@ -63,6 +67,7 @@
             <div class="col-sm-3">
                 <div class="card mx-auto mt-3 w-75 h-100 bg-danger text-white text-center">
                     <div class="card-body"><h4>Total Score</h4>
+                        <br>
                         <div id="yourScore"></div>
                     </div>
                 </div>
@@ -70,6 +75,7 @@
             <div class="col-sm-3">
                 <div class="card mx-auto mt-3 w-75 h-100 bg-danger text-white text-center">
                     <div class="card-body"><h4>Wins</h4>
+                        <br>
                         <div id="wins"></div>
                     </div>
                 </div>
@@ -77,6 +83,7 @@
             <div class="col-sm-3">
                 <div class="card mx-auto mt-3 w-75 h-100 bg-danger text-white text-center">
                     <div class="card-body"><h4>Losses</h4>
+                        <br>
                         <div id="losses"></div>
                     </div>
                 </div>
