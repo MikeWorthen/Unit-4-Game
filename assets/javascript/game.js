@@ -29,6 +29,7 @@ function reset() {
     totalScore = 0;
     $("#yourScore").text(totalScore);
     randomStartNumber();
+    $("#randomNumber").text(randomStart);
 }
 
 
