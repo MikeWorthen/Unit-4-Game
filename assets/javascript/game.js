@@ -81,6 +81,16 @@ $("#han").on("click", function() {
     addNumberForEach();
 })
 
+//Reset button
+$(".btn").on("click", function() {
+    totalScore = 0;
+    losses = 0;
+    randomStartNumber();
+    $("#yourScore").text(totalScore);
+    $("#randomNumber").text(randomStart);
+    $("#wins").text(wins);
+    $("#losses").text(losses);
+})
 
 //Initiate
 function initGame() { 
@@ -90,3 +100,5 @@ function initGame() {
 };
 
 initGame();
+
+
