@@ -85,6 +85,7 @@ $("#han").on("click", function() {
 $(".btn").on("click", function() {
     totalScore = 0;
     losses = 0;
+    wins = 0;
     randomStartNumber();
     $("#yourScore").text(totalScore);
     $("#randomNumber").text(randomStart);
